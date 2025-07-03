@@ -78,6 +78,10 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<version>3.4.3</version> <!-- Use a versão compatível com seu projeto -->
+				<configuration>
+					<mainClass>com.MoMPPD.demo.MainApplication</mainClass>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>

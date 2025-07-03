@@ -1,0 +1,8 @@
+1. Certifique-se de que o RabbitMQ está instalado e rodando
+2. Execute o comando: java -jar nome-do-arquivo.jar
+3. Escolha "Broker Manager" ou "Cliente" na janela que aparecer
+4. Para testar múltiplos usuários, execute o jar várias vezes
+
+REQUISITOS:
+- Java 17 ou superior
+- RabbitMQ Server rodando em localhost:5672

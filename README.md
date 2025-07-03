@@ -116,17 +116,20 @@ O sistema segue uma arquitetura cliente-servidor, onde o **RabbitMQ** atua como 
    ```bash
    mvn clean install
    ```
-3. **Execute o Broker Manager:**
-   ```bash
-   mvn spring-boot:run -Dspring-boot.run.arguments="--app.type=broker"
-   ```
-   - A interface gráfica do Broker Manager será iniciada.
-4. **Execute as Aplicações Cliente (Usuários):**
-   - Abra um novo terminal para cada cliente que você deseja iniciar.
-   ```bash
-   mvn spring-boot:run -Dspring-boot.run.arguments="--app.type=client"
-   ```
-   - A interface gráfica do Cliente será iniciada. Você pode abrir múltiplas instâncias para simular vários usuários.
+3. **Execute o Projeto:**
+   - Você pode rodar tanto pelo Maven quanto pelo arquivo .jar gerado.
+   - **Via Maven**
+     ```
+     mvn spring-boot:run
+     ``` 
+   - **Ou via JAR:**
+     ```
+     java -jar target/MoM-rabitMQ-PPD-Project.jar
+     ``` 
+   - Ao iniciar, uma janela será exibida perguntando se você deseja abrir o Broker Manager ou o Cliente.
+   - Basta escolher a opção desejada e a interface gráfica correspondente será aberta.
+   - Para simular múltiplos usuários, basta executar o comando novamente em outro terminal e escolher "Cliente" na janela.
+
 
 ## 🧪 Testando as Funcionalidades
 
