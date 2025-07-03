@@ -109,8 +109,8 @@ O sistema segue uma arquitetura cliente-servidor, onde o **RabbitMQ** atua como 
 
 1. **Clone o Repositório:**
    ```bash
-   git clone <URL_DO_SEU_REPOSITORIO>
-   cd <nome_do_seu_repositorio>
+   git clone git@github.com:datdudu/MoM-rabitMQ-PPD-Project.git
+   cd MoM-rabitMQ-PPD-Project
    ```
 2. **Compile o Projeto:**
    ```bash
